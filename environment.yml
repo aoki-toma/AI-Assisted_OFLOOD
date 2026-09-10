@@ -1,0 +1,14 @@
+name: AI-Assisted_OFLOOD
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ambertools
+  - mdanalysis
+  - matplotlib
+  - scikit-learn
+  - pandas
+  - numpy
+  - deeptime
+  - fortran-compiler
+  - parmed

@@ -1,0 +1,37 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Local environment settings
+env.sh
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MD Simulation & HPC Outputs (CRITICAL)
+# GROMACS / AMBER heavy trajectories & checkpoints
+*.trr
+*.xtc
+*.edr
+*.log
+*.cpt
+*.tpr
+*.nc
+*.rst
+*.rst7
+*.ncrst
+
+# HPC Job Scheduler logs (PJM, PBS, SLURM etc.)
+*.out
+*.err
+*.o[0-9]*
+*.e[0-9]*
+
+

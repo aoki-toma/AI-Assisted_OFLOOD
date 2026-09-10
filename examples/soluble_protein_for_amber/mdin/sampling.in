@@ -1,0 +1,22 @@
+Sampling (100 ps)
+ &cntrl
+  imin=0,        ! Molecular dynamics
+  irest=0,       ! Do not restart (generate velocities)
+  ntx=1,         ! Read coordinates but not velocities
+  nstlim=50000,  ! Number of MD steps (100 ps)
+  dt=0.002,      ! Time step (ps)
+  ntc=2, ntf=2,  ! SHAKE on bonds involving hydrogen
+  cut=8.0,       ! Nonbonded cutoff (Angstroms)
+  ntb=2,         ! Constant pressure periodic boundary
+  ntp=1,         ! Isotropic pressure scaling
+  barostat=2,    ! Monte Carlo barostat
+  ntt=3,         ! Langevin dynamics
+  gamma_ln=2.0,  ! Collision frequency (Langevin)
+  temp0=300.0,   ! Reference temperature
+  tempi=300.0,   ! Initial temperature
+  ig=-1,         ! Random seed
+  ntpr=500,      ! Print to mdout every 1 ps
+  ntwx=500,      ! Write coordinates to trajectory every 1 ps
+  ntwr=50000,    ! Write restart file at end
+  ioutfm=1,      ! NetCDF trajectory format
+ /
