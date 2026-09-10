@@ -36,7 +36,7 @@ The AI-Assisted OFLOOD toolkit outputs the free-energy landscape (FEL) of a targ
 Building a Conda environment is **strictly required** to ensure reproducibility.
 
 ```bash
-git clone https://github.com/mikant2/AI-Assisted_OFLOOD.git
+git clone https://github.com/aoki-toma/AI-Assisted_OFLOOD.git
 cd AI-Assisted_OFLOOD
 conda env create -f environment.yml
 conda activate AI-Assisted_OFLOOD

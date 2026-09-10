@@ -24,7 +24,7 @@
 本ツールの実行には **Conda（Miniconda / Anaconda）環境の構築が必須** です。
 
 ```bash
-git clone https://github.com/mikant2/AI-Assisted_OFLOOD.git
+git clone https://github.com/aoki-toma/AI-Assisted_OFLOOD.git
 cd AI-Assisted_OFLOOD
 
 conda env create -f environment.yml

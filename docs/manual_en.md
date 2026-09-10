@@ -24,7 +24,7 @@
 Setting up a **Conda (Miniconda / Anaconda) environment is strictly required** to run this tool.
 
 ```bash
-git clone https://github.com/mikant2/AI-Assisted_OFLOOD.git
+git clone https://github.com/aoki-toma/AI-Assisted_OFLOOD.git
 cd AI-Assisted_OFLOOD
 
 conda env create -f environment.yml
